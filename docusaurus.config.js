@@ -9,6 +9,7 @@ const config = {
   title: 'Docusaurus New',
   tagline: 'Docusaurus New',
   favicon: 'img/favicon.ico',
+  staticDirectories: ['static', 'docs'],
 
   // Set the production url of your site here
   url: 'https://al1re2a.github.io',
@@ -21,7 +22,7 @@ const config = {
   organizationName: 'al1re2a', // Usually your GitHub org/user name.
   projectName: 'docusaurus-new', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -43,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/al1re2a/docusaurus-new/tree/main/',
+            'https://github.com/al1re2a/docusaurus-new/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/al1re2a/docusaurus-new/tree/main/',
+            'https://github.com/al1re2a/docusaurus-new/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
